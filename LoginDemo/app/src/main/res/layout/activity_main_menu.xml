@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAFAF0"
+    android:visibility="visible"
+    tools:context=".MainMenu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="#10d168"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obd2Button"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView17"
+            style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginBottom="3dp"
+            android:text="Mis Viajes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="323dp"
+            android:layout_marginBottom="3dp"
+            android:text="Mi Auto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="38dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/trips_icon"
+            android:backgroundTint="#FFFFFF"
+            android:tint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="34dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="343dp"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/car_icon"
+            android:backgroundTint="#FFFFFF"
+            android:tint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="36dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="339dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/idea_icon"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="312dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="3dp"
+            android:text="Consejos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="#10d168"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="12dp"
+            android:baselineAligned="false"
+            android:text="Ximbal"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/obd2Button"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#0D8ED4"
+        android:text="@string/conectar_escaner"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="81dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/obdii_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/obd2Button"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812"
+        app:srcCompat="@drawable/obdii" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="202dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="false"
+        android:background="#DAFAF0"
+        android:contentDescription="@string/start_icon"
+        android:cropToPadding="false"
+        android:elevation="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/start_icon"
+
+        app:layout_constraintBottom_toTopOf="@+id/obd2Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/iniciar_evaluaci_n"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
