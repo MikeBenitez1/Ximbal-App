@@ -14,44 +14,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="40dp"
         android:text="Placa:"
         android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+        app:layout_constraintEnd_toStartOf="@+id/etName11"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginTop="40dp"
         android:text="Color:"
         android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+        app:layout_constraintEnd_toStartOf="@+id/etName10"
+        app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="40dp"
         android:text="Año:"
         android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+        app:layout_constraintEnd_toStartOf="@+id/etName9"
+        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="40dp"
         android:text="Modelo:"
         android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+        app:layout_constraintEnd_toStartOf="@+id/etName8"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -61,6 +69,7 @@
         android:layout_marginTop="96dp"
         android:text="Marca:"
         android:textAppearance="@android:style/TextAppearance.Medium.Inverse"
+        app:layout_constraintEnd_toStartOf="@+id/etName7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -141,54 +150,6 @@
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etName8"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/etName9"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="196dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/etName10"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="264dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <!-- <TextView
       android:id="@+id/textView11"
      android:layout_width="63dp"
@@ -246,10 +207,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" /> -->
 
     <EditText
-        android:id="@+id/etName11"
+        android:id="@+id/etName8"
         android:layout_width="240dp"
         android:layout_height="45dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="48dp"
         android:backgroundTint="@android:color/darker_gray"
         android:ems="10"
@@ -259,7 +220,55 @@
         android:textColorHint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/etName7" />
+
+    <EditText
+        android:id="@+id/etName9"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/etName8" />
+
+    <EditText
+        android:id="@+id/etName10"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/etName9" />
+
+    <EditText
+        android:id="@+id/etName11"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/etName10" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayoutTop"
