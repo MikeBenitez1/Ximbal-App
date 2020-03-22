@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.miguel.logindemo"
+    package="com.miguel.ximbal"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -24,18 +24,30 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
-        <activity android:name="com.miguel.logindemo.MainActivity" >
+        <activity
+            android:name="com.miguel.ximbal.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.miguel.logindemo.MainMenu" />
-        <activity android:name="com.miguel.logindemo.Register" />
-        <activity android:name="com.miguel.logindemo.MyCar" />
-        <activity android:name="com.miguel.logindemo.Trips" />
-        <activity android:name="com.miguel.logindemo.Advices" />
+        <activity
+            android:name="com.miguel.ximbal.MainMenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.MyCar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.Trips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.Advices"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

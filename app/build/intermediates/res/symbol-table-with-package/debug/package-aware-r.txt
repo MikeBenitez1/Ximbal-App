@@ -1,4 +1,4 @@
-com.miguel.logindemo
+com.miguel.ximbal
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1232,6 +1232,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayoutTop
@@ -1568,7 +1569,7 @@ style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
-style AppTheme
+style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

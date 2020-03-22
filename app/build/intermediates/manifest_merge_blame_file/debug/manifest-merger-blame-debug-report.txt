@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.miguel.logindemo"
+3    package="com.miguel.ximbal"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -27,7 +27,7 @@
 15-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:10:22-65
 16
 17    <application
-17-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:12:5-34:19
+17-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:12:5-46:19
 18        android:allowBackup="true"
 18-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:13:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,73 +44,91 @@
 25        android:testOnly="true"
 26        android:theme="@style/Theme.AppCompat" >
 26-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:18:9-47
-27        <activity android:name="com.miguel.logindemo.MainActivity" >
-27-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:21:9-27:20
-27-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:21:19-47
-28            <intent-filter>
-28-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:22:13-25:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:17-69
-29-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:24:17-77
-31-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:24:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.miguel.logindemo.MainMenu" />
-34-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:28:9-46
-34-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:28:19-43
-35        <activity android:name="com.miguel.logindemo.Register" />
-35-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:29:9-45
-35-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:29:19-43
-36        <activity android:name="com.miguel.logindemo.MyCar" />
-36-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:30:9-42
-36-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:30:19-40
-37        <activity android:name="com.miguel.logindemo.Trips" />
-37-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:31:9-42
-37-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:31:19-40
-38        <activity android:name="com.miguel.logindemo.Advices" />
-38-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:32:9-44
-38-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:32:19-42
+27        <activity
+27-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:21:9-29:20
+28            android:name="com.miguel.ximbal.MainActivity"
+28-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:22:13-58
+29            android:theme="@style/AppTheme.NoActionBar" >
+29-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:13-56
+30            <intent-filter>
+30-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:24:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:25:17-69
+31-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:25:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:26:17-77
+33-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:30:9-32:59
+37            android:name="com.miguel.ximbal.MainMenu"
+37-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:31:13-54
+38            android:theme="@style/AppTheme.NoActionBar" />
+38-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:32:13-56
 39        <activity
-39-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-40            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-40-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
-41            android:excludeFromRecents="true"
-41-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-42            android:exported="false"
-42-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-43-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-44        <!--
-45            Service handling Google Sign-In user revocation. For apps that do not integrate with
-46            Google Sign-In, this service will never be started.
-47        -->
-48        <service
-48-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-49            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-49-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-50            android:exported="true"
-50-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-51            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-51-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-52
-53        <activity
-53-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-54-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-55            android:exported="false"
-55-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-56-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-57
-58        <meta-data
-58-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/f11bad730f13923664abccdf134871bd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-59            android:name="com.google.android.gms.version"
-59-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/f11bad730f13923664abccdf134871bd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-60            android:value="@integer/google_play_services_version" />
-60-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/f11bad730f13923664abccdf134871bd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-61    </application>
-62
-63</manifest>
+39-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:33:9-35:59
+40            android:name="com.miguel.ximbal.Register"
+40-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:34:13-54
+41            android:theme="@style/AppTheme.NoActionBar" />
+41-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:35:13-56
+42        <activity
+42-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:36:9-38:59
+43            android:name="com.miguel.ximbal.MyCar"
+43-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:37:13-51
+44            android:theme="@style/AppTheme.NoActionBar" />
+44-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:38:13-56
+45        <activity
+45-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:39:9-41:59
+46            android:name="com.miguel.ximbal.Trips"
+46-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:40:13-51
+47            android:theme="@style/AppTheme.NoActionBar" />
+47-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:41:13-56
+48        <activity
+48-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:42:9-44:59
+49            android:name="com.miguel.ximbal.Advices"
+49-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:43:13-53
+50            android:theme="@style/AppTheme.NoActionBar" />
+50-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:44:13-56
+51        <activity
+51-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+52            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+52-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+53            android:excludeFromRecents="true"
+53-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+56        <!--
+57            Service handling Google Sign-In user revocation. For apps that do not integrate with
+58            Google Sign-In, this service will never be started.
+59        -->
+60        <service
+60-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+61            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+61-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+62            android:exported="true"
+62-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+63            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+63-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/7c3357205c0d6443051a58acd987f14a/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/79afcbb10c471ef95c122edecae7b7b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/79afcbb10c471ef95c122edecae7b7b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/79afcbb10c471ef95c122edecae7b7b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+73    </application>
+74
+75</manifest>

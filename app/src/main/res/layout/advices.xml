@@ -8,90 +8,100 @@
     android:visibility="visible"
     tools:context=".MainMenu">
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="97dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="48dp"
-        android:tint="#10D168"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/btnLogin3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:srcCompat="@drawable/steering_wheel" />
+    <Button
+        android:id="@+id/btnLogin5"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="108dp"
+        android:background="#0D8ED4"
+        android:text="Consejos de mi ultima evaluación"
+        android:textAppearance="@android:style/TextAppearance.Material.Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/btnLogin2"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="132dp"
+        android:background="#0D8ED4"
+        android:text="Consejos para mejorar una conducción mala"
+        android:textAppearance="@android:style/TextAppearance.Material.Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="97dp"
         android:layout_height="83dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="36dp"
         android:tint="#F7F000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/steering_wheel" />
 
     <Button
-        android:id="@+id/btnLogin5"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="112dp"
-        android:background="#0D8ED4"
-        android:text="Consejos de mi ultima evaluación"
-        android:textAppearance="@android:style/TextAppearance.Material.Menu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword"
-        app:layout_constraintVertical_bias="0.24" />
-
-    <Button
         android:id="@+id/btnLogin4"
         android:layout_width="225dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="8dp"
         android:background="#0D8ED4"
         android:text="Consejos para mejorar una conducción regular"
         android:textAppearance="@android:style/TextAppearance.Material.Menu"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="36dp"
+        android:tint="#F95F62"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnLogin2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/steering_wheel" />
 
     <Button
         android:id="@+id/btnLogin3"
         android:layout_width="225dp"
         android:layout_height="48dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="80dp"
         android:background="#0D8ED4"
         android:text="Consejos para mantener una conducción buena"
         android:textAppearance="@android:style/TextAppearance.Material.Menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin4" />
 
-    <Button
-        android:id="@+id/btnLogin2"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="8dp"
-        android:background="#0D8ED4"
-        android:text="Consejos para mejorar una conducción mala"
-        android:textAppearance="@android:style/TextAppearance.Material.Menu"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="36dp"
+        android:tint="#10D168"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnLogin3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/steering_wheel" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayoutTop"
@@ -113,6 +123,7 @@
             android:baselineAligned="false"
             android:text="Consejos"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -120,12 +131,10 @@
             android:id="@+id/imageView6"
             android:layout_width="80dp"
             android:layout_height="43dp"
-            android:layout_marginStart="146dp"
-            android:layout_marginEnd="185dp"
+            android:layout_marginEnd="164dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/idea_icon" />
 
@@ -133,29 +142,15 @@
             android:id="@+id/imageView12"
             android:layout_width="26dp"
             android:layout_height="48dp"
-            android:layout_marginEnd="368dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.476"
             app:srcCompat="@drawable/back_arrow" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="97dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="48dp"
-        android:tint="#F95F62"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/btnLogin2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/steering_wheel" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -168,9 +163,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.298"
         app:layout_constraintStart_toEndOf="@+id/btnLogin5"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.955"
         app:srcCompat="@drawable/start_icon" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="299dp"
         android:layout_height="7dp"
         android:layout_marginStart="56dp"

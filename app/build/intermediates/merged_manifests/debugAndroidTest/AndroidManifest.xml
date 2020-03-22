@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.miguel.logindemo.test" >
+    package="com.miguel.ximbal.test" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -10,8 +10,8 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.miguel.logindemo"
-        android:targetPackage="com.miguel.logindemo" />
+        android:label="Tests for com.miguel.ximbal"
+        android:targetPackage="com.miguel.ximbal" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

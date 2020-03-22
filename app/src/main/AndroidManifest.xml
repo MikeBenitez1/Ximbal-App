@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.miguel.logindemo">
+    package="com.miguel.ximbal">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -18,18 +18,30 @@
         android:theme="@style/Theme.AppCompat"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.miguel.ximbal.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
-        <activity android:name=".MainMenu" />
-        <activity android:name=".Register"/>
-        <activity android:name=".MyCar"/>
-        <activity android:name=".Trips"/>
-        <activity android:name=".Advices"/>
+        <activity
+            android:name="com.miguel.ximbal.MainMenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.MyCar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.Trips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.Advices"
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
 
