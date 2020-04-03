@@ -24,6 +24,10 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xhdpi/ximbal_launcher.png"
     },
     {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/main.xml"
+    },
+    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_my_car.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/my_car.xml"
     },
@@ -32,16 +36,16 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/steering_wheel.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ximbal_launcher.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxhdpi/ximbal_launcher.png"
-    },
-    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ximbal_launcher_round.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxxhdpi/ximbal_launcher_round.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_edit_button.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/edit_button.png"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_menu_trips_list.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/menu_trips_list.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_row_trip_list.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/row_trip_list.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_locked.png.flat",
@@ -56,12 +60,88 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/advices.xml"
     },
     {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_telephone.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/telephone.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ximbal_launcher_round.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xhdpi/ximbal_launcher_round.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/xml_preferences.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_start_icon.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/start_icon.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-hdpi_ximbal_launcher_round.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-hdpi/ximbal_launcher_round.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_trouble_codes.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/trouble_codes.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ximbal_launcher.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxxhdpi/ximbal_launcher.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_btcar.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-hdpi/ic_btcar.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_logo_ximbal.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/logo_ximbal.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_btcar.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-xhdpi/ic_btcar.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ximbal_launcher.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxhdpi/ximbal_launcher.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_edit_button.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/edit_button.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_context_trip_list.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/context_trip_list.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_first_advice.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/first_advice.xml"
+    },
+    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_car_icon.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/car_icon.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_telephone.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/telephone.png"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_register.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/register.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_start2_icon.png.flat",
@@ -76,40 +156,32 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/activity_main_menu.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/activity_register.xml"
-    },
-    {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ximbal_launcher_round.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xhdpi/ximbal_launcher_round.png"
-    },
-    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ximbal_launcher_round.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxhdpi/ximbal_launcher_round.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_trouble_codes.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/trouble_codes.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_start_icon.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/start_icon.png"
-    },
-    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_user.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/user.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-hdpi_ximbal_launcher_round.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-hdpi/ximbal_launcher_round.png"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_btcar.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-xxhdpi/ic_btcar.png"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-hdpi_ximbal_launcher.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-hdpi/ximbal_launcher.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_activity_trips_list.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/activity_trips_list.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-mdpi_ximbal_launcher.png.flat",
@@ -128,27 +200,27 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_ic_home_black_24dp.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ximbal_launcher.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxxhdpi/ximbal_launcher.png"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_btcar.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-mdpi/ic_btcar.png"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_logo_ximbal.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/logo_ximbal.png"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_login.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/login.xml"
     }
 ]

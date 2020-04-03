@@ -16,7 +16,7 @@ public class MainMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.main_menu);
 
         MyCarButton = (ImageButton)findViewById(R.id.imageButton5);
         TripsButton = (ImageButton)findViewById(R.id.imageButton6);

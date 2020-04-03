@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <color name="primary">#10d168</color>
+    <!-- Blue Grey 500 -->
+    <color name="primary_dark">#050504</color>
+    <!-- Blue Grey 700 -->
+    <color name="accent">#FFC107</color>
+    <!-- Red A200 -->
+</resources>

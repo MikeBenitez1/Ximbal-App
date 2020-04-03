@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAFAF0"
+    android:visibility="visible"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="366dp"
+        android:layout_height="453dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="\n\n➡ Mantener distancia con otros coches, al grado que se puedan ver los neumáticos del vehículo de enfrente.\n\n➡ Respeta metro y medio a los ciclistas.\n\n➡ Primero el peatón, no obstruyas su espacio y cede el paso. \n\n➡ En cruces no señalizados, el paso es uno y uno. \n\n➡ No rebases el limite de velocidad. \n\n➡ Evitar el uso del teléfono celular, comer, maquillarse, entre otros. \n\n➡ En luz roja total, no hay vuelta continua. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#020001"
+        app:layout_constraintBottom_toTopOf="@+id/ivLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="157dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="28dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_logo"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_ximbal" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayoutTop"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="1dp"
+        android:background="#10d168"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="322dp"
+            android:layout_height="31dp"
+            android:text="Consejos para una mejor conducción"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="26dp"
+            android:layout_height="48dp"
+            android:tint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476"
+            app:srcCompat="@drawable/back_arrow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
