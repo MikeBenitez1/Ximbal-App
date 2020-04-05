@@ -103,6 +103,12 @@
             android:name="com.miguel.ximbal.first_advice"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name="com.miguel.ximbal.second_advice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.third_advice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
             android:exported="false"

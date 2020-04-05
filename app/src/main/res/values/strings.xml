@@ -17,16 +17,16 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="crear_cuenta">CREAR CUENTA</string>
+    <string name="crear_cuenta">Crear cuenta</string>
     <string name="usuario_o_correo_electronico">Usuario o Correo Electronico</string>
-    <string name="iniciar_sesi_n">INICIAR SESIÓN</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
     <string name="app_logo">app logo</string>
-    <string name="conectar_escaner">CONECTAR ESCÁNER</string>
+    <string name="conectar_escaner">Conectar escáner</string>
     <string name="obdii_icon">OBDII Icon</string>
     <string name="start_icon">Start Icon</string>
-    <string name="iniciar_evaluaci_n">INICIAR OBDII</string>
+    <string name="iniciar_evaluaci_n">Iniciar OBDII</string>
     <string name="user_logo">User logo</string>
-    <string name="registrarse">REGISTRARSE</string>
+    <string name="registrarse">Registrarse</string>
     <string name="acepto_los_t_rminos_y_condiciones">Acepto los Términos y Condiciones</string>
     <string name="la_contrase_a_debe_ser_de_4_caracteres_o_m_s">La contraseña debe ser de 4 caracteres o más</string>
     <string name="_10_digitos">10 Digitos</string>

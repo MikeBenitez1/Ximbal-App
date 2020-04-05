@@ -106,8 +106,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayoutTop"
-        android:layout_width="0dp"
-        android:layout_height="69dp"
+        android:layout_width="411dp"
+        android:layout_height="62dp"
         android:background="#10d168"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -118,39 +118,35 @@
             android:id="@+id/textViewMisViajes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
             android:baselineAligned="false"
             android:text="Mis Viajes"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
-            app:layout_constraintStart_toEndOf="@+id/imageView12"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView17"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="26dp"
             android:layout_height="48dp"
-            android:layout_marginStart="16dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
+            app:layout_constraintHorizontal_bias="0.8"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.476"
             app:srcCompat="@drawable/back_arrow" />
 
         <ImageView
             android:id="@+id/imageView17"
             android:layout_width="60dp"
             android:layout_height="38dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="176dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.045"
-            app:layout_constraintStart_toEndOf="@+id/textViewMisViajes"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.516"
             app:srcCompat="@drawable/trips_icon" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,17 +13,18 @@
         android:layout_width="328dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="64dp"
-        android:background="#10d168"
+        android:background="@drawable/green_button"
         android:text="@string/crear_cuenta"
         android:textAppearance="@android:style/TextAppearance.Material.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvOther"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.309" />
 
     <EditText
         android:id="@+id/etName"
@@ -68,20 +69,20 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:background="#10d168"
+        android:background="@drawable/green_button"
         android:text="@string/iniciar_sesi_n"
         android:textAppearance="@android:style/TextAppearance.Material.Medium"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <TextView
         android:id="@+id/tvOther"
-        android:layout_width="10dp"
-        android:layout_height="wrap_content"
+        android:layout_width="16dp"
+        android:layout_height="30dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:text="O"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"

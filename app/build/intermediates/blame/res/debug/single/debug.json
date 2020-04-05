@@ -40,6 +40,10 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxxhdpi/ximbal_launcher_round.png"
     },
     {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_green_button.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/green_button.xml"
+    },
+    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_menu_trips_list.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/menu_trips_list.xml"
     },
@@ -52,12 +56,12 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/locked.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_my_trips.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/my_trips.xml"
-    },
-    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_advices.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/advices.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_my_trips.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/my_trips.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_telephone.png.flat",
@@ -84,6 +88,10 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-hdpi/ximbal_launcher_round.png"
     },
     {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_main_menu.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/main_menu.xml"
+    },
+    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
@@ -98,6 +106,10 @@
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_second_advice.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/second_advice.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ximbal_launcher.png.flat",
@@ -152,8 +164,8 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/idea_icon.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_activity_main_menu.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/activity_main_menu.xml"
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_orange_button.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/orange_button.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ximbal_launcher_round.png.flat",
@@ -214,6 +226,10 @@
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_btcar.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable-mdpi/ic_btcar.png"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_third_advice.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/third_advice.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",

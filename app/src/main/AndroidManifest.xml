@@ -94,6 +94,12 @@
         <activity
             android:name="com.miguel.ximbal.first_advice"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.second_advice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.miguel.ximbal.third_advice"
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
 

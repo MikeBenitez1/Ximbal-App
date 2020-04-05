@@ -1397,6 +1397,7 @@ drawable design_snackbar_background
 drawable edit_button
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable green_button
 drawable ic_btcar
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1442,6 +1443,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable obdii
+drawable orange_button
 drawable start2_icon
 drawable start_icon
 drawable steering_wheel
@@ -1902,7 +1904,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main_menu
 layout activity_trips_list
 layout advices
 layout custom_dialog
@@ -1924,6 +1925,7 @@ layout design_text_input_start_icon
 layout first_advice
 layout login
 layout main
+layout main_menu
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1971,6 +1973,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout register
 layout row_trip_list
+layout second_advice
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1987,6 +1990,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout third_advice
 layout trouble_codes
 menu context_trip_list
 menu main

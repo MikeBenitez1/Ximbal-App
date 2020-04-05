@@ -10,8 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Advices extends AppCompatActivity {
 
-    private Button first_advice;
     private ImageButton back_menu1;
+    private Button first_advice;
+    private Button second_advice;
+    private Button third_advice;
 
 
     @Override
@@ -19,8 +21,18 @@ public class Advices extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.advices);
 
-        first_advice = (Button) findViewById(R.id.btnLogin2);
         back_menu1 = (ImageButton) findViewById(R.id.imageButton12);
+        first_advice = (Button) findViewById(R.id.btnLogin2);
+        second_advice = (Button) findViewById(R.id.btnLogin4);
+        third_advice = (Button) findViewById(R.id.btnLogin3);
+
+
+        back_menu1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(Advices.this, MainMenu.class );
+                startActivity(intent); }
+        });
 
         first_advice.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,11 +41,19 @@ public class Advices extends AppCompatActivity {
                 startActivity(intent); }
         });
 
-        back_menu1.setOnClickListener(new View.OnClickListener() {
+        second_advice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent intent = new Intent(Advices.this, MainMenu.class );
+                Intent intent = new Intent(Advices.this, second_advice.class );
                 startActivity(intent); }
         });
+
+        third_advice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(Advices.this, third_advice.class );
+                startActivity(intent); }
+        });
+
     }
 }
