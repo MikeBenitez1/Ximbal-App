@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAFAF0"
+    android:visibility="visible"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="343dp"
+        android:layout_height="604dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="\n➡ Comprueba la presión de tus neumáticos: Conducir usando neumáticos con una presión de 7 psi inferior a la correcta reduce el rendimiento del combustible en un 2 y en un 4 por ciento en áreas urbanas y suburbanas, respectivamente. \n\n➡ Use el aire acondicionado solamente cuando sea necesario: Cuando la temperatura exterior es de 25º C, el aire
+acondicionado reduce el consumo de gasolina en un 12 por ciento. En ciudad, abrir las ventanas (cuando hacerlo sea seguro) es más eficiente que usar el aire acondicionado pero a partir de entre 80 y 90 km/h, llevar las ventanas abajo consume más que si vamos con el aire acondicionado activado debido a la mayor resistencia del aire.\n\n➡ Mantén la velocidad lo mas uniforme posible, busca fluidez en la circulación, evitando frenados, aceleraciones y cambios de marcha innecesarios. Para desacelerar, levanta el pie del acelerador y deja rodar el vehículo con la marcha metida en ese instante. Frena de forma suave con el pedal del freno y reduce de marcha lo más tarde posible, con especial atención a las bajadas. \n\n➡ Usa el frenado del motor: Si sueltas el acelerador cuando te das cuenta de que debes de frenar, se detiene el suministro de combustible, con lo que el rendimiento de éste aumenta en un 2 por ciento. \n\n➡ Cambia de marcha a bajas revoluciones: el par motor de un coche diésel aconseja cambiar de marcha entre las 1.500 y 2.500 rpm. En caso de los gasolina el momento óptimo se sitúa entre 2.000 y 2.500 rpm.  "
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#020001"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutTop"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayoutTop"
+        android:layout_width="407dp"
+        android:layout_height="55dp"
+        android:background="#10d168"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="302dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:text="Consejos para ahorrar combustible al conducir"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="26dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:tint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476"
+            app:srcCompat="@drawable/back_arrow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
