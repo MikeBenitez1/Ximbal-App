@@ -9,83 +9,120 @@
     android:visibility="visible"
     tools:context=".MainMenu">
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:text="Placa:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin7"
-        app:layout_constraintEnd_toStartOf="@+id/etName11"
-        app:layout_constraintHorizontal_bias="0.804"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:background="#10d168"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayoutTop" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="48dp"
-        android:text="Color:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintEnd_toStartOf="@+id/etName10"
-        app:layout_constraintHorizontal_bias="0.897"
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/view" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:text="Año:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintEnd_toStartOf="@+id/etName9"
-        app:layout_constraintHorizontal_bias="0.864"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:text="Modelo:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintEnd_toStartOf="@+id/etName8"
-        app:layout_constraintHorizontal_bias="0.883"
+    <EditText
+        android:id="@+id/etName9"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
-        android:text="Marca:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintEnd_toStartOf="@+id/etName7"
-        app:layout_constraintHorizontal_bias="0.902"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayoutTop" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="70dp"
-        android:layout_height="71dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="32dp"
-        android:tint="#10d168"
+    <Button
+        android:id="@+id/btnLogin5"
+        android:layout_width="193dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/orange_button"
+        android:text="Registrar en bitácora"
+        android:textAppearance="@android:style/TextAppearance.Material.Menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/add_icon" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etName8"
+        android:layout_width="276dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Placa"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName7" />
+
+    <EditText
+        android:id="@+id/etName7"
+        android:layout_width="276dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName14" />
+
+    <EditText
+        android:id="@+id/etName14"
+        android:layout_width="274dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Año"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName12" />
+
+    <EditText
+        android:id="@+id/etName13"
+        android:layout_width="276dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutTop" />
 
     <!-- <TextView
       android:id="@+id/textView11"
@@ -143,124 +180,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" /> -->
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="133dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="152dp"
-        android:layout_marginBottom="52dp"
-        android:ellipsize="end"
-        android:singleLine="true"
-        android:text="Agregar Auto"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+    <EditText
+        android:id="@+id/etName12"
+        android:layout_width="276dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toBottomOf="@+id/etName13" />
 
     <Button
         android:id="@+id/btnLogin7"
-        android:layout_width="292dp"
-        android:layout_height="48dp"
+        android:layout_width="138dp"
+        android:layout_height="41dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/orange_button"
-        android:text="Registrar reparación o servicio de mantenimiento"
+        android:text="Registrar Auto"
         android:textAppearance="@android:style/TextAppearance.Material.Menu"
-        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etName11"
-        app:layout_constraintVertical_bias="0.842" />
-
-    <EditText
-        android:id="@+id/etName7"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayoutTop" />
-
-    <EditText
-        android:id="@+id/etName8"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/etName7" />
-
-    <EditText
-        android:id="@+id/etName9"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/etName8" />
-
-    <EditText
-        android:id="@+id/etName10"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/etName9" />
-
-    <EditText
-        android:id="@+id/etName11"
-        android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="48dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:ems="10"
-        android:inputType="textEmailAddress|textPersonName"
-        android:textAppearance="@android:style/TextAppearance.Material.Inverse"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/etName10" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayoutTop"
-        android:layout_width="407dp"
-        android:layout_height="62dp"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
         android:background="#10d168"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -268,26 +222,39 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/textViewMisViajes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:baselineAligned="false"
+            android:text="Ver registros"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewMisViajes"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555" />
+
+        <TextView
             android:id="@+id/textViewMisViajes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="276dp"
             android:baselineAligned="false"
             android:text="Mi Auto"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView6"
-            app:layout_constraintHorizontal_bias="0.181"
-            app:layout_constraintStart_toEndOf="@+id/imageView12"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="66dp"
-            android:layout_height="39dp"
-            android:layout_marginEnd="168dp"
+            android:layout_width="47dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="32dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewMisViajes2"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.521"
             app:srcCompat="@drawable/car_icon" />
@@ -299,23 +266,44 @@
             android:layout_marginStart="16dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.476"
             app:srcCompat="@drawable/back_arrow" />
 
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="27dp"
-            android:layout_height="33dp"
-            android:layout_marginEnd="16dp"
-            android:tint="@android:color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/edit_button" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="82dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/date_selected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDate" />
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="134dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#008BC34A"
+        android:text="Selecciona fecha"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
     <!-- <TextView
         android:id="@+id/textView2"

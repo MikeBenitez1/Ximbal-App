@@ -58,7 +58,7 @@
             android:id="@+id/textView18"
             android:layout_width="311dp"
             android:layout_height="35dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="60dp"
             android:layout_marginBottom="8dp"
             android:text="Consejos para una mejor conducción"

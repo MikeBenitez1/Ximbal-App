@@ -33,7 +33,9 @@
     <string name="nombre">Nombre</string>
     <string name="correo">Correo</string>
     <string name="mail_logo">Mail logo</string>
+    <string name="date_selected"></string>
     <string name="phone_number_logo">phone number logo</string>
+
 
     <string-array name="trips">
         <item>Mercury</item>

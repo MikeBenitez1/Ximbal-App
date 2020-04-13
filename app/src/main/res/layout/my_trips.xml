@@ -12,14 +12,14 @@
         android:id="@+id/linearLayoutTop"
         android:layout_width="0dp"
         android:layout_height="84dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="204dp"
         android:background="#10d168"
         app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutTop">
 
         <TextView
             android:id="@+id/textView8"
@@ -93,17 +93,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="164dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="100dp"
-        android:text="Rango de tiempo"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayoutTop"
         android:layout_width="411dp"
@@ -118,7 +107,7 @@
             android:id="@+id/textViewMisViajes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="4dp"
             android:baselineAligned="false"
             android:text="Mis Viajes"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
@@ -130,10 +119,11 @@
             android:id="@+id/imageView12"
             android:layout_width="26dp"
             android:layout_height="48dp"
+            android:layout_marginStart="8dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
-            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintHorizontal_bias="0.763"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/back_arrow" />
@@ -142,7 +132,7 @@
             android:id="@+id/imageView17"
             android:layout_width="60dp"
             android:layout_height="38dp"
-            android:layout_marginEnd="176dp"
+            android:layout_marginEnd="140dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
