@@ -20,29 +20,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="26dp"
-            android:layout_height="48dp"
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="28dp"
+            android:layout_height="26dp"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/back_arrow"
+            android:backgroundTint="#FFFFFF"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
+            app:layout_constraintHorizontal_bias="0.104"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.476"
-            app:srcCompat="@drawable/back_arrow" />
+            app:layout_constraintVertical_bias="0.481" />
 
         <TextView
             android:id="@+id/textViewMisViajes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginEnd="196dp"
             android:baselineAligned="false"
             android:text="Crear Cuenta"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView7"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.487" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

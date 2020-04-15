@@ -1,16 +1,20 @@
 package com.miguel.ximbal;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class Register extends AppCompatActivity {
     private DataBaseHelper db;
     private EditText e1, e2, e3, e4, e5;
     private Button b1;
+    private ImageButton back_menu6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +27,16 @@ public class Register extends AppCompatActivity {
         e4 = (EditText) findViewById(R.id.etName5);
         e5 = (EditText) findViewById(R.id.etName6);
         b1 = (Button) findViewById(R.id.btnRegister2);
+        back_menu6 = (ImageButton) findViewById(R.id.imageButton24);
+
+        back_menu6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(Register.this, MainActivity.class );
+                startActivity(intent); }
+        });
+
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
