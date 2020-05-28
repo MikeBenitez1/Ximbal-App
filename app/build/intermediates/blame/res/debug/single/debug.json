@@ -60,10 +60,6 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/advices.xml"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_my_trips.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/layout/my_trips.xml"
-    },
-    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_telephone.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/telephone.png"
     },
@@ -164,6 +160,10 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/idea_icon.png"
     },
     {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_dataset_icon.png.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/dataset_icon.png"
+    },
+    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_orange_button.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/orange_button.xml"
     },
@@ -198,10 +198,6 @@
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/mipmap-mdpi_ximbal_launcher.png.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-mdpi/ximbal_launcher.png"
-    },
-    {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_trips_icon.png.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/trips_icon.png"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_obdii.png.flat",

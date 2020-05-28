@@ -1388,6 +1388,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable dataset_icon
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1451,7 +1452,6 @@ drawable telephone
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable trips_icon
 drawable user
 id ALT
 id BOTTOM_END
@@ -1584,10 +1584,7 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
-id editText
-id editText2
 id editText3
-id editText4
 id edit_query
 id end
 id end_padder
@@ -1637,7 +1634,6 @@ id imageButton21
 id imageButton22
 id imageButton23
 id imageButton24
-id imageButton25
 id imageButton4
 id imageButton5
 id imageButton6
@@ -1646,7 +1642,6 @@ id imageView
 id imageView10
 id imageView11
 id imageView14
-id imageView17
 id imageView2
 id imageView3
 id imageView4
@@ -1659,6 +1654,7 @@ id italic
 id itemDelete
 id item_touch_helper_previous_elevation
 id ivLogo
+id ivLogo2
 id labeled
 id largeLabel
 id left
@@ -1712,6 +1708,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id obd2Button
+id obd2Button2
 id off
 id on
 id outline
@@ -1758,7 +1755,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id sign_in_button
 id skipCollapsed
 id slide
 id smallLabel
@@ -1799,9 +1795,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
-id textView13
-id textView14
 id textView15
 id textView16
 id textView17
@@ -1810,8 +1803,6 @@ id textView2
 id textView3
 id textView4
 id textView5
-id textView6
-id textView8
 id textViewMisViajes
 id textViewMisViajes2
 id text_input_end_icon
@@ -1958,7 +1949,6 @@ layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout my_car
-layout my_trips
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
