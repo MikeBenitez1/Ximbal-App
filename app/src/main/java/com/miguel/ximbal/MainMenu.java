@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.miguel.ximbal.activity.ConfigActivity;
 import com.miguel.ximbal.activity.SecondActivity;
@@ -44,7 +45,7 @@ public class MainMenu extends AppCompatActivity {
         ConnectOBDIIButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent intent = new Intent(MainMenu.this, TripListActivity.class );
+                Intent intent = new Intent(MainMenu.this, ConfigActivity.class );
                 startActivity(intent); }
         });
 
@@ -58,8 +59,8 @@ public class MainMenu extends AppCompatActivity {
         DatasetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainMenu.this, Dataset.class);
-                startActivity(intent); }
+                Toast.makeText(MainMenu.this, "Dataset guardado en /storage/sdcard0/", Toast.LENGTH_SHORT).show();
+            }
         });
 
         AdvicesButton.setOnClickListener(new View.OnClickListener() {
@@ -68,5 +69,7 @@ public class MainMenu extends AppCompatActivity {
                 Intent intent = new Intent(MainMenu.this, Advices.class);
                 startActivity(intent); }
         });
-        }
+
+}
+
 }

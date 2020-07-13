@@ -63,7 +63,7 @@
             android:layout_marginBottom="8dp"
             android:text="Consejos para una mejor conducción"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"

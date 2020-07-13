@@ -109,6 +109,7 @@
             android:baselineAligned="false"
             android:text="Consejos"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#FFFFFF"
             app:layout_constraintEnd_toStartOf="@+id/imageView6"
             app:layout_constraintTop_toTopOf="parent" />
 

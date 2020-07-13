@@ -21,7 +21,7 @@
     <string name="usuario_o_correo_electronico">Usuario o Correo Electronico</string>
     <string name="iniciar_sesi_n">Iniciar Sesión</string>
     <string name="app_logo">app logo</string>
-    <string name="conectar_escaner">Conectar escáner</string>
+    <string name="Configurar_escaner">Configurar escáner</string>
     <string name="obdii_icon">OBDII Icon</string>
     <string name="start_icon">Start Icon</string>
     <string name="iniciar_evaluaci_n">Iniciar OBDII</string>

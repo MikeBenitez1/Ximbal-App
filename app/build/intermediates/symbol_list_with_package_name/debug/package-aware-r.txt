@@ -1994,6 +1994,7 @@ mipmap ic_launcher_round
 mipmap ximbal_launcher
 mipmap ximbal_launcher_round
 plurals mtrl_badge_content_description
+string Configurar_escaner
 string _10_digitos
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2055,7 +2056,6 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
-string conectar_escaner
 string correo
 string crear_cuenta
 string date_selected
