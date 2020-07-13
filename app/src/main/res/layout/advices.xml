@@ -83,7 +83,7 @@
         android:layout_width="97dp"
         android:layout_height="83dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="90dp"
         android:tint="#10D168"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,12 +93,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayoutTop"
-        android:layout_width="408dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="1dp"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
         android:background="#10d168"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -110,6 +109,7 @@
             android:baselineAligned="false"
             android:text="Consejos"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#FFFFFF"
             app:layout_constraintEnd_toStartOf="@+id/imageView6"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +117,7 @@
             android:id="@+id/imageView6"
             android:layout_width="80dp"
             android:layout_height="43dp"
-            android:layout_marginEnd="140dp"
+            android:layout_marginEnd="160dp"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -129,12 +129,16 @@
             android:id="@+id/imageButton12"
             android:layout_width="28dp"
             android:layout_height="26dp"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/back_arrow"
             android:backgroundTint="#FFFFFF"
             android:tint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
+            app:layout_constraintHorizontal_bias="0.6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.476" />

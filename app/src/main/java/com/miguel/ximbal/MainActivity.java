@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.miguel.ximbal.auth.Register;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText Name;
