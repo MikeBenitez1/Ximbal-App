@@ -16,8 +16,8 @@
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."</string>
-    <string name="crear_cuenta">Crear cuenta</string>
-    <string name="usuario_o_correo_electronico">Usuario o Correo Electronico</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="usuario_o_correo_electronico">Correo Electrónico</string>
     <string name="iniciar_sesi_n">Iniciar Sesión</string>
     <string name="app_logo">app logo</string>
     <string name="Configurar_escaner">Configurar escáner</string>
@@ -27,10 +27,10 @@
     <string name="user_logo">User logo</string>
     <string name="registrarse">Registrarse</string>
     <string name="acepto_los_t_rminos_y_condiciones">Acepto los Términos y Condiciones</string>
-    <string name="la_contrase_a_debe_ser_de_4_caracteres_o_m_s">La contraseña debe ser de 4 caracteres o más</string>
+    <string name="la_contrase_a_debe_ser_de_4_caracteres_o_m_s">La contraseña debe ser de 4 caracteres o más.</string>
     <string name="_10_digitos">10 Digitos</string>
     <string name="nombre">Nombre</string>
-    <string name="correo">Correo</string>
+    <string name="correo">Correo Electrónico</string>
     <string name="mail_logo">Mail logo</string>
     <string name="date_selected"></string>
     <string name="phone_number_logo">phone number logo</string>

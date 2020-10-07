@@ -50,7 +50,7 @@ public class Register extends AppCompatActivity {
                 String s3 = e3.getText().toString();
                 String s4 = e4.getText().toString();
                 String s5 = e5.getText().toString();
-                if (s2.equals("")||s3.equals("")||s2.equals("")) {
+                if (s1.equals("")||s3.equals("")||s2.equals("")||s4.equals("")||s5.equals("")) {
                     Toast.makeText(getApplicationContext(), "Hay campos vacios", Toast.LENGTH_LONG).show();
 
                 }
@@ -67,7 +67,9 @@ public class Register extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Correo Existente", Toast.LENGTH_LONG).show();
                         }
                      }
-                     //Toast.makeText(getApplicationContext(), "No coinciden las contraseñas", Toast.LENGTH_LONG).show();
+                     else {
+                         Toast.makeText(getApplicationContext(), "No coinciden las contraseñas", Toast.LENGTH_LONG).show();
+                     }
                 }
             }
         });

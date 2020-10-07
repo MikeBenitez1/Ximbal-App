@@ -16,10 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText Password;
     private Button Login;
     private Button Register1;
-    /*private TextView Other;
-    private ImageView Logo;
-    private Toast Message;
-    private SignInButton sign_in_button;*/
+
 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +27,7 @@ protected void onCreate(Bundle savedInstanceState) {
         Password = (EditText)findViewById(R.id.etPassword);
         Login = (Button)findViewById(R.id.btnLogin);
         Register1 = (Button)findViewById(R.id.btnRegister);
-        /*Other = (TextView)findViewById(R.id.tvOther);
-        Logo = (ImageView)findViewById(R.id.ivLogo);*/
+
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
