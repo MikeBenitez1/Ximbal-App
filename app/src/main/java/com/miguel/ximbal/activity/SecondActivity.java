@@ -197,6 +197,8 @@ public class SecondActivity extends RoboActivity implements ObdProgressListener,
                     if (reading != null) myCSVWriter.writeLineCSV(reading);
                 }
                 commandResult.clear();
+
+
             }
             // run again in period defined in preferences
             new Handler().postDelayed(mQueueCommands, ConfigActivity.getObdUpdatePeriod(prefs));

@@ -1638,6 +1638,7 @@ id imageButton4
 id imageButton5
 id imageButton6
 id imageButton7
+id imageButtonRegisters
 id imageView
 id imageView10
 id imageView11
@@ -1664,9 +1665,11 @@ id line3
 id linearLayout2
 id linearLayout3
 id linearLayoutTop
+id linearLayoutTop2
 id listMode
 id listView
 id list_item
+id listview
 id masked
 id media_actions
 id message
@@ -1805,6 +1808,7 @@ id textView4
 id textView5
 id textViewMisViajes
 id textViewMisViajes2
+id textViewRegisters
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1965,6 +1969,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout register
+layout registers
 layout row_trip_list
 layout second_advice
 layout select_dialog_item_material

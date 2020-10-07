@@ -59,7 +59,7 @@ public class MainMenu extends AppCompatActivity {
         DatasetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainMenu.this, "Dataset guardado en /storage/sdcard0/", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainMenu.this, "Guardando dataset en /storage/sdcard0/Ximbal_dataset/", Toast.LENGTH_LONG).show();
             }
         });
 

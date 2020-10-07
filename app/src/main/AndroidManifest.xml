@@ -100,6 +100,10 @@
             android:name="com.miguel.ximbal.advices.third_advice"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity
+            android:name=".car_service_register.Registers"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>

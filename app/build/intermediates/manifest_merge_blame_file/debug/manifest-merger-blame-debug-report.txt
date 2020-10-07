@@ -48,7 +48,7 @@
 22-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:21:22-65
 23
 24    <application
-24-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:5-103:19
+24-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:5-107:19
 25        android:allowBackup="true"
 25-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:24:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -193,43 +193,49 @@
 100            android:theme="@style/AppTheme.NoActionBar" />
 100-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:101:13-56
 101        <activity
-101-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-102            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-102-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
-103            android:excludeFromRecents="true"
-103-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-106        <!--
-107            Service handling Google Sign-In user revocation. For apps that do not integrate with
-108            Google Sign-In, this service will never be started.
-109        -->
-110        <service
-110-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-111            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-111-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-112            android:exported="true"
-112-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-113            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-113-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-114
-115        <activity
-115-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-116-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-117            android:exported="false"
-117-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-118-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-119
-120        <meta-data
-120-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c39f27975e2128f358c90a3c3f9b8fee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-121            android:name="com.google.android.gms.version"
-121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c39f27975e2128f358c90a3c3f9b8fee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-122            android:value="@integer/google_play_services_version" />
-122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c39f27975e2128f358c90a3c3f9b8fee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-123    </application>
-124
-125</manifest>
+101-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:103:9-105:59
+102            android:name="com.miguel.ximbal.car_service_register.Registers"
+102-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:104:13-59
+103            android:theme="@style/AppTheme.NoActionBar" />
+103-->/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:105:13-56
+104        <activity
+104-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+105-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+106            android:excludeFromRecents="true"
+106-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+109        <!--
+110            Service handling Google Sign-In user revocation. For apps that do not integrate with
+111            Google Sign-In, this service will never be started.
+112        -->
+113        <service
+113-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+114-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+116-->[com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c39f27975e2128f358c90a3c3f9b8fee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c39f27975e2128f358c90a3c3f9b8fee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c39f27975e2128f358c90a3c3f9b8fee/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
