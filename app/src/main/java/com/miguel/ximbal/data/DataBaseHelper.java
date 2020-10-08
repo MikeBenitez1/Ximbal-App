@@ -30,14 +30,22 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         contentValues.put("password", password);
         long ins = db.insert("user", null, contentValues);
         if (ins == -1) return false;
-        else return true;
+        else return
+                true;
     }
      // checking if email exists
-    public Boolean chkemail(String email) {
+    public Boolean checkemail(String email) {
          SQLiteDatabase db = this.getReadableDatabase();
          Cursor cursor = db.rawQuery("Select * from user where email=?", new String[]{email});
          if (cursor.getCount()>0) return false;
          else return true;
         }
+    // checking if password exists
+    public Boolean checkpass(String password) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery("Select * from user where password=?", new String[]{password});
+        if (cursor.getCount()>0) return false;
+        else return true;
+    }
     }
 

@@ -56,13 +56,14 @@ public class Register extends AppCompatActivity {
                 }
                 else {
                      if (s3.equals(s4)) {
-                         Boolean chkemail = db.chkemail(s2);
+                         Boolean chkemail = db.checkemail(s2);
                          if (chkemail == true) {
                              Boolean insert = db.insert(s2, s3);
                              if (insert == true) {
-                                Toast.makeText(getApplicationContext(), "Registro Satisfactorio", Toast.LENGTH_LONG).show();
+                                 Toast.makeText(getApplicationContext(), "Registro Satisfactorio", Toast.LENGTH_LONG).show();
+                                 Intent intent = new Intent(Register.this, MainActivity.class);
+                                 startActivity(intent);
                              }
-                         }
                          else {
                             Toast.makeText(getApplicationContext(), "Correo Existente", Toast.LENGTH_LONG).show();
                         }
@@ -72,8 +73,8 @@ public class Register extends AppCompatActivity {
                      }
                 }
             }
-        });
+        }
 
-    }
+    });
 
-}
+}}

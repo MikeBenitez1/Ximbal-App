@@ -40,12 +40,12 @@
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/mipmap-xxxhdpi/ximbal_launcher_round.png"
     },
     {
-        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_menu_trips_list.xml.flat",
-        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/menu_trips_list.xml"
-    },
-    {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/drawable_green_button.xml.flat",
         "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/drawable/green_button.xml"
+    },
+    {
+        "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/menu_menu_trips_list.xml.flat",
+        "source": "/Users/miguelangelbenitezgarcia/Ximbal/app/src/main/res/menu/menu_trips_list.xml"
     },
     {
         "merged": "/Users/miguelangelbenitezgarcia/Ximbal/app/build/intermediates/res/merged/debug/layout_row_trip_list.xml.flat",

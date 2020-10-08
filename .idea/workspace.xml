@@ -27,44 +27,45 @@
     <list default="true" id="6e4afde0-ed45-44be-9961-be7957482c85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/auth/Register$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/auth/Register$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/auth/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/auth/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/data/DataBaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/miguel/Ximbal/data/DataBaseHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/MainActivity$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/MainActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/MainActivity$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/MainActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/auth/Register$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/auth/Register$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/auth/Register.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/auth/Register.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_advices.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_advices.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_register.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_register.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/data/DataBaseHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/miguel/ximbal/data/DataBaseHelper.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_registers.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_registers.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/miguel/ximbal/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/miguel/ximbal/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/miguel/ximbal/auth/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/miguel/ximbal/auth/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/advices.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/advices.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/miguel/ximbal/data/DataBaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/miguel/ximbal/data/DataBaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/registers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/registers.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel3_XL_Android_10_plus" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="29e9c49b" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -294,21 +295,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="405" key="GridCell.Tab.0.bottom" timestamp="1602019951827">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1878" height="123" key="GridCell.Tab.0.bottom" timestamp="1602122304568">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="123" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602122304568" />
     <state width="1358" height="405" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1602019951827" />
-    <state width="1358" height="405" key="GridCell.Tab.0.center" timestamp="1602019951827">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1878" height="123" key="GridCell.Tab.0.center" timestamp="1602122304566">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="123" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602122304566" />
     <state width="1358" height="405" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1602019951827" />
-    <state width="1358" height="405" key="GridCell.Tab.0.left" timestamp="1602019951826">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1878" height="123" key="GridCell.Tab.0.left" timestamp="1602122304566">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="123" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602122304566" />
     <state width="1358" height="405" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1602019951826" />
-    <state width="1358" height="405" key="GridCell.Tab.0.right" timestamp="1602019951827">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1878" height="123" key="GridCell.Tab.0.right" timestamp="1602122304567">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="123" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1602122304567" />
     <state width="1358" height="405" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1602019951827" />
     <state x="531" y="230" key="RollbackChangesDialog" timestamp="1602038377290">
       <screen x="0" y="23" width="1680" height="975" />
@@ -319,9 +324,10 @@
     </state>
     <state x="196" y="126" width="1200" height="735" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1680.975@0.23.1680.975" timestamp="1602021075412" />
     <state x="196" y="156" width="1200" height="735" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1920.996@0.23.1920.996" timestamp="1602022972407" />
-    <state x="419" y="323" key="com.intellij.ide.util.TipDialog" timestamp="1602037016030">
-      <screen x="0" y="23" width="1680" height="974" />
+    <state x="479" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1602118275560">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
+    <state x="479" y="328" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1920.991@0.23.1920.991" timestamp="1602118275560" />
     <state x="419" y="323" key="com.intellij.ide.util.TipDialog/0.23.1680.974@0.23.1680.974" timestamp="1602037016030" />
     <state x="419" y="323" key="com.intellij.ide.util.TipDialog/0.23.1680.975@0.23.1680.975" timestamp="1602021061835" />
     <state x="568" y="258" width="695" height="486" key="find.popup" timestamp="1602046265941">
