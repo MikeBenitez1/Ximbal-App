@@ -99,6 +99,9 @@
             android:name="com.miguel.ximbal.advices.third_advice"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name="com.miguel.ximbal.car_service_register.Registers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
             android:exported="false"

@@ -225,7 +225,7 @@
             android:id="@+id/textViewMisViajes2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
+            android:layout_marginStart="100dp"
             android:baselineAligned="false"
             android:text="Ver registros"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -248,20 +248,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="47dp"
-            android:layout_height="38dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginEnd="45dp"
-            android:tint="@android:color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textViewMisViajes2"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.521"
-            app:srcCompat="@drawable/car_icon" />
-
         <ImageButton
             android:id="@+id/imageButton23"
             android:layout_width="28dp"
@@ -277,6 +263,18 @@
             app:layout_constraintEnd_toStartOf="@+id/textViewMisViajes"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonRegisters"
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:background="@drawable/car_icon"
+            android:backgroundTint="#FFFFFF"
+            android:tint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewMisViajes2"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -58,7 +59,7 @@
             android:id="@+id/textViewMisViajes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="170dp"
+            android:layout_marginEnd="210dp"
             android:baselineAligned="false"
             android:text="Crear Cuenta"
             android:textAppearance="@android:style/TextAppearance.Material.Large"
@@ -157,7 +158,7 @@
         android:id="@+id/imageView5"
         android:layout_width="47dp"
         android:layout_height="45dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="12dp"
         android:contentDescription="password_logo"
         android:tint="#10d168"
         app:layout_constraintEnd_toStartOf="@+id/etName5"
@@ -169,8 +170,8 @@
         android:id="@+id/imageView10"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="30dp"
         android:contentDescription="@string/phone_number_logo"
         android:tint="#10d168"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
@@ -178,6 +179,7 @@
         app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.187"
         app:srcCompat="@drawable/telephone" />
 
     <ImageView

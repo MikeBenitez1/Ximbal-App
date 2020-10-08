@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
+ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
+INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
+INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
+INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/5c75bd7951d359a85775620c0170e49e/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c6c160beabe7f4f404dcf7d40c9cb143/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/e6db2a8ebafb4101960628e4b20a9462/media-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -47,9 +47,9 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/miguelangelbenitezgar
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/e2041232485bdf4d2a09c36930218fc5/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/0b3ed2b8b9ba103e713cc57e24141ba7/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/80494d026c905f06e4c8b45b3569cb2d/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
-INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
+INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
+INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:2:1-109:12
 	package
 		ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:5:5-32
 		INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml
@@ -115,7 +115,7 @@ ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.x
 	android:name
 		ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:21:22-65
 application
-ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:5-103:19
+ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:23:5-107:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c6c160beabe7f4f404dcf7d40c9cb143/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/c6c160beabe7f4f404dcf7d40c9cb143/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/miguelangelbenitezgarcia/.gradle/caches/transforms-2/files-2.1/54dde7a2203d4c4d5e5287bd5fda0ac6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
@@ -268,6 +268,12 @@ ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.x
 		ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:101:13-56
 	android:name
 		ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:100:13-66
+activity#com.miguel.ximbal.car_service_register.Registers
+ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:103:9-105:59
+	android:theme
+		ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:105:13-56
+	android:name
+		ADDED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml:104:13-59
 uses-sdk
 INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/miguelangelbenitezgarcia/Ximbal/app/src/main/AndroidManifest.xml

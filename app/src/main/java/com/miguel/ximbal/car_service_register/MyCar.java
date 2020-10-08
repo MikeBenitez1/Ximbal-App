@@ -21,7 +21,8 @@ import com.miguel.ximbal.R;
 public class MyCar extends AppCompatActivity implements AdapterView.OnItemSelectedListener, DatePickerDialog.OnDateSetListener  {
 
     String[] TipoRegistro = {"Servicio", "Reparación", "Verificación"};
-    String[] Auto = {"Seleccionar auto", "Mazda"};
+    String[] Auto = {"Seleccionar auto", "Mazda 3"};
+    private ImageButton registers;
     private Button AutoRegister;
     private Button ServiceRegister;
     private TextView dateText;
@@ -34,11 +35,19 @@ public class MyCar extends AppCompatActivity implements AdapterView.OnItemSelect
         setContentView(R.layout.my_car);
 
 
+        registers = (ImageButton) findViewById(R.id.imageButtonRegisters);
         AutoRegister = (Button) findViewById(R.id.btnLogin7);
         ServiceRegister = (Button) findViewById(R.id.btnLogin5);
         dateText = findViewById(R.id.textView2);
         back_menu5 = (ImageButton) findViewById(R.id.imageButton23);
 
+
+        registers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MyCar.this, com.miguel.ximbal.car_service_register.Registers.class );
+                startActivity(intent); }
+        });
 
         back_menu5.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,7 +66,7 @@ public class MyCar extends AppCompatActivity implements AdapterView.OnItemSelect
         ServiceRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(getApplicationContext(), "Registrado", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Registrado en bitácora", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -67,7 +76,7 @@ public class MyCar extends AppCompatActivity implements AdapterView.OnItemSelect
         Spinner spin2 = (Spinner) findViewById(R.id.spinner2);
         spin2.setOnItemSelectedListener(this);
 
-        //Creating the ArrayAdapter instance having the country list
+        //Creating the ArrayAdapter instance having the elements list
         ArrayAdapter aa1 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, TipoRegistro);
         aa1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         ArrayAdapter aa2 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, Auto);
