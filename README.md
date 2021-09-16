@@ -1,2 +1,2 @@
 # Ximbal App
-Personal Android app project to obtain a Master's degree at school
+Personal Android Java App Project which is composed by local signup/login with sqlite, a main home where you can go to a section to see on realtime the collected OBDII data (With an open source OBDII Java API), a section with driving advices and a section where you can register a car and maintenance agenda, it was developed to obtain a Master's degree on Information Technologies focused on Data Science.
